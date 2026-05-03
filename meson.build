@@ -1,4 +1,4 @@
-project('cachyos-hello', 'rust',
+project('genesi-hello', 'rust',
         version: '0.23.2',
         license: 'GPLv3',
         meson_version: '>=0.56.0',
@@ -10,7 +10,7 @@ project('cachyos-hello', 'rust',
 i18n = import('i18n')
 gnome = import('gnome')
 
-base_id = 'org.cachyos.hello'
+base_id = 'org.genesi.hello'
 
 dependency('glib-2.0', version: '>= 2.66')
 dependency('gio-2.0', version: '>= 2.66')
