@@ -291,7 +291,7 @@ dependencies = [
  "colored",
  "gdk-pixbuf 0.22.0",
  "gio 0.22.5",
- "glib 0.22.5",
+ "glib 0.22.7",
  "gtk",
  "i18n-embed",
  "i18n-embed-fl",
@@ -940,7 +940,7 @@ checksum = "25f420376dbee041b2db374ce4573892a36222bb3f6c0c43e24f0d67eae9b646"
 dependencies = [
  "gdk-pixbuf-sys 0.22.0",
  "gio 0.22.5",
- "glib 0.22.5",
+ "glib 0.22.7",
  "libc",
 ]
 
@@ -1067,7 +1067,7 @@ dependencies = [
  "futures-io",
  "futures-util",
  "gio-sys 0.22.0",
- "glib 0.22.5",
+ "glib 0.22.7",
  "libc",
  "pin-project-lite",
  "smallvec",
@@ -1124,9 +1124,9 @@ dependencies = [
 
 [[package]]
 name = "glib"
-version = "0.22.5"
+version = "0.22.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a1b7df55594e0e787d1560e23f7e12d7360d0b22e7b7c228ec2488b9e59b1b6b"
+checksum = "c207e04e51605dcf7b2924c41591b3a10e1438eaac5bcf448fb91f325381104a"
 dependencies = [
  "bitflags",
  "futures-channel",
